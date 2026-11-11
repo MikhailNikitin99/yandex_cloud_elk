@@ -1,0 +1,5 @@
+---
+- name: Creating a text file
+  my_own_namespace.yandex_cloud_elk.textfile:
+    path: "{{ textfile_path }}"
+    content: "{{ textfile_content }}"

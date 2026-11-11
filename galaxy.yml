@@ -1,0 +1,13 @@
+namespace: my_own_namespace
+name: yandex_cloud_elk
+version: 1.0.0
+readme: README.md
+authors:
+- Mikhail Nikitin
+description: Using textfile module to create .txt file with path(relative/absolute) and some content(str).
+license:
+- MIT
+license_file: ''
+tags: []
+dependencies: {}
+build_ignore: []

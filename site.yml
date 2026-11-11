@@ -1,0 +1,6 @@
+---
+- name: Create a .txt file
+  hosts: localhost
+  connection: local
+  roles:
+    - role: my_own_namespace.yandex_cloud_elk.textfile
